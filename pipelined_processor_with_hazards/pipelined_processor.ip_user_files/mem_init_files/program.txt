@@ -1,0 +1,13 @@
+00a00293    // addi x5, x0, 10
+00500313    // addi x6, x0, 5
+// 1. FORWARDING HAZARD
+006283b3    // add x7, x5, x6  
+// 2. STORE DATA HAZARD (FORWARDING TO STORE)
+02702023    // sw x7, 32(x0)
+// 3. LOAD-USE HAZARD (TRIGGERS A 1-CYCLE STALL)
+02002403    // lw x8, 32(x0)
+00838263    // beq x7, x8, 8    // Target is PC + 8 (skipping the next instruction)
+// 4. CONTROL HAZARD (TRIGGERS A FLUSH)
+06300293    // addi x5, x0, 99  // <--- FLUSHED! Should be skipped.
+// TARGET DESTINATION
+00000063    // beq x0, x0, 0    // Jump-to-self loop (trap to stop execution)

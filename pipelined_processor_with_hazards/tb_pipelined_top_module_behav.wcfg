@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pipelined_top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pipelined_top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="320000001fs"></ZoomEndTime>
+      <Cursor1Time time="57427000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="82" />
+   <wvobject fp_name="/tb_pipelined_top_module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCTargetE" type="array">
+      <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultW" type="array">
+      <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUResultW" type="array">
+      <obj_property name="ElementShortName">ALUResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCD" type="array">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4D" type="array">
+      <obj_property name="ElementShortName">PCPlus4D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultW" type="array">
+      <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/Rs2D" type="array">
+      <obj_property name="ElementShortName">Rs2D[24:20]</obj_property>
+      <obj_property name="ObjectShortName">Rs2D[24:20]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/Rs1D" type="array">
+      <obj_property name="ElementShortName">Rs1D[19:15]</obj_property>
+      <obj_property name="ObjectShortName">Rs1D[19:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/FlushD" type="logic">
+      <obj_property name="ElementShortName">FlushD</obj_property>
+      <obj_property name="ObjectShortName">FlushD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/StallD" type="logic">
+      <obj_property name="ElementShortName">StallD</obj_property>
+      <obj_property name="ObjectShortName">StallD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/StallF" type="logic">
+      <obj_property name="ElementShortName">StallF</obj_property>
+      <obj_property name="ObjectShortName">StallF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/FlushE" type="logic">
+      <obj_property name="ElementShortName">FlushE</obj_property>
+      <obj_property name="ObjectShortName">FlushE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/Rs2E" type="array">
+      <obj_property name="ElementShortName">Rs2E[24:20]</obj_property>
+      <obj_property name="ObjectShortName">Rs2E[24:20]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/Rs1E" type="array">
+      <obj_property name="ElementShortName">Rs1E[19:15]</obj_property>
+      <obj_property name="ObjectShortName">Rs1E[19:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4W" type="array">
+      <obj_property name="ElementShortName">PCPlus4W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RD1E" type="array">
+      <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RD2E" type="array">
+      <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCE" type="array">
+      <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ImmExtE" type="array">
+      <obj_property name="ElementShortName">ImmExtE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExtE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4E" type="array">
+      <obj_property name="ElementShortName">PCPlus4E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdE" type="array">
+      <obj_property name="ElementShortName">RdE[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdE[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdM" type="array">
+      <obj_property name="ElementShortName">RdM[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdM[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdW" type="array">
+      <obj_property name="ElementShortName">RdW[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdW[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RDW" type="array">
+      <obj_property name="ElementShortName">RDW[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RDW[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteE" type="logic">
+      <obj_property name="ElementShortName">RegWriteE</obj_property>
+      <obj_property name="ObjectShortName">RegWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/MemWriteE" type="logic">
+      <obj_property name="ElementShortName">MemWriteE</obj_property>
+      <obj_property name="ObjectShortName">MemWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/JumpE" type="logic">
+      <obj_property name="ElementShortName">JumpE</obj_property>
+      <obj_property name="ObjectShortName">JumpE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/BranchE" type="logic">
+      <obj_property name="ElementShortName">BranchE</obj_property>
+      <obj_property name="ObjectShortName">BranchE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUSrcE" type="logic">
+      <obj_property name="ElementShortName">ALUSrcE</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcE" type="array">
+      <obj_property name="ElementShortName">ResultSrcE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcM" type="array">
+      <obj_property name="ElementShortName">ResultSrcM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcW" type="array">
+      <obj_property name="ElementShortName">ResultSrcW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcW[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUControlE" type="array">
+      <obj_property name="ElementShortName">ALUControlE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUResultM" type="array">
+      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/WriteDataM" type="array">
+      <obj_property name="ElementShortName">WriteDataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteDataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4M" type="array">
+      <obj_property name="ElementShortName">PCPlus4M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ReadDataW" type="array">
+      <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4W" type="array">
+      <obj_property name="ElementShortName">PCPlus4W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteM" type="logic">
+      <obj_property name="ElementShortName">RegWriteM</obj_property>
+      <obj_property name="ObjectShortName">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/MemWriteM" type="logic">
+      <obj_property name="ElementShortName">MemWriteM</obj_property>
+      <obj_property name="ObjectShortName">MemWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCTargetE" type="array">
+      <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCD" type="array">
+      <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4D" type="array">
+      <obj_property name="ElementShortName">PCPlus4D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RD1E" type="array">
+      <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RD2E" type="array">
+      <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCE" type="array">
+      <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ImmExtE" type="array">
+      <obj_property name="ElementShortName">ImmExtE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExtE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4E" type="array">
+      <obj_property name="ElementShortName">PCPlus4E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdE" type="array">
+      <obj_property name="ElementShortName">RdE[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdE[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdM" type="array">
+      <obj_property name="ElementShortName">RdM[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdM[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RdW" type="array">
+      <obj_property name="ElementShortName">RdW[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RdW[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RDW" type="array">
+      <obj_property name="ElementShortName">RDW[11:7]</obj_property>
+      <obj_property name="ObjectShortName">RDW[11:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteE" type="logic">
+      <obj_property name="ElementShortName">RegWriteE</obj_property>
+      <obj_property name="ObjectShortName">RegWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/MemWriteE" type="logic">
+      <obj_property name="ElementShortName">MemWriteE</obj_property>
+      <obj_property name="ObjectShortName">MemWriteE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/JumpE" type="logic">
+      <obj_property name="ElementShortName">JumpE</obj_property>
+      <obj_property name="ObjectShortName">JumpE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/BranchE" type="logic">
+      <obj_property name="ElementShortName">BranchE</obj_property>
+      <obj_property name="ObjectShortName">BranchE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUSrcE" type="logic">
+      <obj_property name="ElementShortName">ALUSrcE</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcE" type="array">
+      <obj_property name="ElementShortName">ResultSrcE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcM" type="array">
+      <obj_property name="ElementShortName">ResultSrcM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ResultSrcW" type="array">
+      <obj_property name="ElementShortName">ResultSrcW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcW[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUControlE" type="array">
+      <obj_property name="ElementShortName">ALUControlE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUResultM" type="array">
+      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/WriteDataM" type="array">
+      <obj_property name="ElementShortName">WriteDataM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteDataM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/PCPlus4M" type="array">
+      <obj_property name="ElementShortName">PCPlus4M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ReadDataW" type="array">
+      <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/ALUResultW" type="array">
+      <obj_property name="ElementShortName">ALUResultW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/RegWriteM" type="logic">
+      <obj_property name="ElementShortName">RegWriteM</obj_property>
+      <obj_property name="ObjectShortName">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pipelined_top_module/uut/MemWriteM" type="logic">
+      <obj_property name="ElementShortName">MemWriteM</obj_property>
+      <obj_property name="ObjectShortName">MemWriteM</obj_property>
+   </wvobject>
+</wave_config>

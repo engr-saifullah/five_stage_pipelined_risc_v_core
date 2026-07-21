@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../pipelined_processor.srcs/sources_1/new/Decode_Section.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/Execute_Section.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/Fetch_Section.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/adder.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/alu.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/control_unit.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/data_memory.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/extend.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/forward_logic.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/instruction_memory.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/memory_section.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/mux.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/mux3.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/pipelined_top_module.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/program_counter.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/register_file.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/stall_flush_logic.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/write_back_section.sv" \
+"../../../../pipelined_processor.srcs/sources_1/new/TB_Pipeline.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
