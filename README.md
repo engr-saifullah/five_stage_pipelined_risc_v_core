@@ -296,8 +296,8 @@ Planned enhancements include:
 
 Electrical Engineer | RTL Design | Digital IC Design | FPGA Development | Embedded Systems
 
-- LinkedIn: *Add your LinkedIn profile*
-- GitHub: *Add your GitHub profile*
+- LinkedIn: www.linkedin.com/in/saifullah91
+- GitHub: [*GitHub*](https://github.com/engr-saifullah/)
 
 ---
 
